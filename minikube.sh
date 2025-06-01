@@ -17,3 +17,5 @@ sudo curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-l
  sudo kubectl version --client
  sudo kubectl version --client --output=yaml
  sudo minikube start --driver=docker --force
+ minikube version
+ kubectl version
